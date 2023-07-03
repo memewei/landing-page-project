@@ -140,12 +140,51 @@ body{
     color: #1f2937;
 }
 
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: #e5e7eb;
+}
+
+.cta-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid;
+    border-color: #3882f6;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 960px;
+    padding: 50px;
+}
+
+.cta-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.cta-subtitle{
+    font-size: 16px;
+}
+
+#cta-button{
+    color: white;
+    border: 2px solid white;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
     color: #e5e7eb;
+    padding: 40px;
 }
 
 ul{
