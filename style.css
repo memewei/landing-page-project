@@ -80,17 +80,64 @@ body{
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    padding: 40px;
 }
 
 .subtext{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
 
+.subtext-1, .subtext-2, .subtext-3, .subtext-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    overflow-wrap: break-word;
+    text-align: center;
 }
 
 .box{
-    border: 5px blue;
+    border: 5px solid;
+    border-color: #3882f6;
+    height: 160px;
+    width: 160px;
+    border-radius: 20px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
     padding: 50px;
-    margin: 20px;
+}
+
+.quote-text{
+    width: 820px;
+    height: 240px;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    overflow-wrap: break-word;
+    padding-bottom: 0;
+
+}
+
+.quote-char{
+    display: flex;
+    width: 820px;
+    justify-content: flex-end;
+    font-size: 24px;
+    margin-right: 50px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .footer{
